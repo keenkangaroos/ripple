@@ -3,4 +3,4 @@
 ## Role Assignment
 - Product Owner: Nick Krein
 - Scrum Master: Jeffrey Yang
-- Development Team: Jonathan Kvicky
+- Development Team: Jonathan Kvicky, Stephanie Raad
