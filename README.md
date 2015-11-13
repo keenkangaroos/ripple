@@ -6,4 +6,4 @@
 - Development Team: Jonathan Kvicky, Stephanie Raad
 
 ## Project Backlog
-- https://waffle.io/keenkangaroos/keenkangaroos/join
+- https://www.google.com
