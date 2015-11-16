@@ -9,7 +9,7 @@
 
   'GET'
   
-*  **URL Params**
+*  **URL Endpoints**
 
    **Required:** 
 
@@ -25,7 +25,7 @@
    
     - (/2/4/0 = top hit from 1974) 
 
-   **Optional:**
+   **Params(Optional):**
  
    - 'artist=[string]'
    - 'songTitle=[string]'
