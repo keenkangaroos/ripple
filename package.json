@@ -1,0 +1,23 @@
+{
+  "name": "keenkangaroos",
+  "version": "1.0.0",
+  "description": "## Role Assignment - Product Owner: Nick Krein - Scrum Master: Jeffrey Yang - Development Team: Jonathan Kvicky, Stephanie Raad",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nkreinmusic/keenkangaroos.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nkreinmusic/keenkangaroos/issues"
+  },
+  "homepage": "https://github.com/nkreinmusic/keenkangaroos#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "firebase": "^2.3.1"
+  }
+}
