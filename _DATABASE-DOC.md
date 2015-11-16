@@ -17,7 +17,7 @@
    
     - (/0 = 50s, /1 = 60s, /2 = 70s... /5 = 00s, /6 = 10s)
    
-  - **/decade/year** - an integer between zero and nine to specify the second digit in your request 
+  - **/decade/year** - an integer between zero and nine to specify the year within the decade
    
     - (/0/3 = 1953, /4/9 = 1999, /3/7 = 1987, etc.)
    
