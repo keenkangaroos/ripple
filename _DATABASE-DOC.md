@@ -25,7 +25,9 @@
    
     - (/2/4/0 = top hit from 1974) 
 
-   **Params(Optional):**
+   **Response:**
  
-   - 'artist=[string]'
-   - 'songTitle=[string]'
+   - 'artist : [string]'
+   - 'songTitle : [string]'
+   - 'youTubeUrl : [string]' 
+     - link to a search query for the song on YouTube
