@@ -1,13 +1,17 @@
 **Top 40**
 ----
 
+* **CDN** to include in your index.html:
+
+  - ```<script src="https://cdn.firebase.com/js/client/2.3.1/firebase.js"></script>```
+
 * **URL**
 
-  https://blazing-fire-8914.firebaseio.com/
+  - https://blazing-fire-8914.firebaseio.com/
 
 * **Method:**
 
-  'GET'
+  - 'GET'
   
 *  **URL Endpoints**
 
@@ -31,3 +35,16 @@
    - 'songTitle : [string]'
    - 'youTubeUrl : [string]' 
      - link to a search query for the song on YouTube
+
+**Sample Call** 
+
+```
+var ref = new Firebase("https://blazing-fire-8914.firebaseio.com/0/0/");
+
+// Attach an asynchronous callback to read the data at our posts reference
+ref.on("value", function(snapshot) {
+  console.log(snapshot.val());
+}, function (errorObject) {
+  console.log("The read failed: " + errorObject.code);
+});
+```
