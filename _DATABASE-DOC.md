@@ -36,7 +36,7 @@
    - 'youTubeUrl : [string]' 
      - link to a search query for the song on YouTube
 
-**Sample Call** 
+**Sample Call:** 
 
 ```
 var ref = new Firebase("https://blazing-fire-8914.firebaseio.com/0/0/");
