@@ -1,11 +1,11 @@
 **Top 40**
 ----
 
-* **CDN** to include in your index.html:
+* **CDN:**
 
   - ```<script src="https://cdn.firebase.com/js/client/2.3.1/firebase.js"></script>```
 
-* **URL**
+* **URL:**
 
   - https://blazing-fire-8914.firebaseio.com/
 
