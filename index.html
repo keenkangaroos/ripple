@@ -1,0 +1,49 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+    <title>Music Top 40 Search</title>  
+    <style>  
+        .inputText {  
+            border: 1px solid #ccc;  
+            border-radius: 10px;  
+            background-color: #0ff;  
+            box-shadow: 1px 1px 1px 1px #ccc;  
+            width: 230px;  
+            height: 30px;  
+        }  
+  
+        ul {  
+            list-style: none;  
+            padding: 10px;  
+            background-color: #CAEAF5;  
+            border-radius: 10px;  
+            border: 1px solid #ccc;  
+            width: 210px;  
+        }  
+  
+        li {  
+            border: 1px solid #ccc;  
+            border-right: none;  
+            border-left: none;  
+            padding: 2px;  
+            text-align: center;  
+        }         
+    </style>  
+</head>  
+<body ng-app ng-init="decadeVisited=['1950-','1960-','1970-','1980-','1990-','2000-', '2010-'];">  
+    <div>  
+        <input type="text" ng-model="curDecade" class="inputText">  
+        <ul>  
+            <li  ng-repeat="decade in decadeVisited | filter:curDecade">  
+                <a ng-href="https://www.google.co.in/webhp?q={{decade}}">{{decade}} </a>
+            </li>  
+        </ul>  
+    </div>  
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular.min.js"></script> 
+    <script src="app.js"></script>
+</body>  
+</html> 
+
+
+
