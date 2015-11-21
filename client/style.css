@@ -1,0 +1,151 @@
+body {
+  /*background: #abbaab*/ /* fallback for old browsers */
+  /*background: -webkit-linear-gradient(to left, #abbaab , #ffffff);  Chrome 10-25, Safari 5.1-6 */
+  /*background: linear-gradient(to left, #abbaab , #ffffff);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  margin-top: 0px;
+  background-color: #080e1c;
+  background: url('http://www.hdwalley.com/wp-content/uploads/2015/10/music_wallpaper_perfect_2038_high_definition.jpg') no-repeat;
+  background-size: cover;
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&amp;1+0,0+100;White+to+Transparent */
+
+}
+/*------------ body----------------*/
+#container{
+  width: 1000px;
+  display: block;
+  margin: 0 auto;
+  /*background-color:#C0C0C0;*/
+  min-height: 800px;
+  padding-top: 0px;
+  margin-top: -10px;
+-webkit-box-shadow: -1px -1px 30px 10px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px -1px 30px 10px rgba(0,0,0,0.75);
+box-shadow: -1px -1px 30px 10px rgba(0,0,0,0.75);
+/*-webkit-box-shadow: 0px 10px 28px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 10px 28px -1px rgba(0,0,0,0.75);
+box-shadow: 0px 10px 28px -1px rgba(0,0,0,0.75);*/
+}
+/*----- header-----------*/
+#header{
+  height: 130px;
+  background: rgba(0,0,0,0.5);
+/*background: url('logo.png') no-repeat;*/
+}
+#header img{
+  width: 250px;
+  padding-top: 40px;
+  padding-left: 40px;
+}
+#header h1{
+  padding-top: 30px;
+  padding-left: 20px;
+  color: white;
+}
+/*---------- Menu---------------*/
+#menu{
+  width: 1000px;
+  margin-left: 15px;
+}
+/*-----------Show Songs---------------*/
+
+.showSongs{
+  width: 400px;
+  background-color: rgba(0,0,0,0.7);
+  margin-top:10px;
+  margin-left:40px;
+  max-height: 450px;
+  overflow: scroll;
+}
+.showSongs div{
+  color: white;
+  padding: 8px;
+
+}
+
+/*-------DROPDOWN---------------*/
+.dropdown {
+  display: inline-block;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+.dropdown .button {
+  padding-right: 28px;
+  margin: 0;
+  position: relative;
+  z-index: 2;
+  width: 135px;
+}
+.dropdown .button:after {
+  content: '';
+  background: url(images/dropdown-icon.png) 0;
+  width: 8px;
+  height: 6px;
+  display: block;
+  position: absolute;
+  right: 12px;
+  top: 13px;
+}
+.dropdown .button[disabled]:after,
+.dropdown .button.disabled:after {
+  background-position: -8px;
+}
+.dropdown ul {
+  background: #ffffff;
+  padding: 4px 0;
+  border: 1px solid #bec0c1;
+  border-radius: 5px;
+  position: absolute;
+  left: 0;
+  top: 33px;
+  display: none;
+  list-style: none;
+}
+.dropdown ul li {
+  list-style: none;
+}
+.dropdown ul li:hover {
+  background: #009eca;
+}
+.dropdown ul li a {
+  height: 30px;
+  padding: 0 40px 0 10px;
+  display: block;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 30px;
+  color: #3d4447;
+  white-space: nowrap;
+}
+.dropdown ul li a:hover {
+  color: #ffffff;
+}
+.dropdown.dropdown-right ul {
+  right: 0;
+  left: auto;
+}
+.dropdown.dropdown-active ul {
+  display: block;
+  z-index: 1000;
+}
+.button {
+  font-size: 20px;
+  color: #99CCCC;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  background-color: #000000;
+}
+
+#player {
+ width: 100%;
+}​
+
+
+
+/*---------MAIN LOOK-----------*/
+
+
