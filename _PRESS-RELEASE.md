@@ -19,26 +19,44 @@ Once the project moves into development, the press release can be used as a touc
 ## Heading ##
   > Name the product in a way the reader (i.e. your target customers) will understand.
 
+ ripple
+
 ## Sub-Heading ##
   > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
 
+ A musical time machine for the audiophile in all of us.
+
 ## Summary ##
   > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
+  
+ This product allows you to instantly create a playlist of the Billboard Top 40 hits from any year you desire. 
 
 ## Problem ##
   > Describe the problem your product solves.
+  
+ Quickly finding a snapshot of popular musical history to listen to.
 
 ## Solution ##
   > Describe how your product elegantly solves the problem.
 
+ By data scraping the top 40 hits and utilizing the Spotify API, we create a playlist of the top charting songs from a given year. Simply select the year and we'll do the rest.
+ 
 ## Quote from You ##
   > A quote from a spokesperson in your company.
+  
+  "Prove to your friends that 1999 was the best year in musical history!"
 
 ## How to Get Started ##
   > Describe how easy it is to get started.
+  
+ Select a year, click a song, enjoy.
 
 ## Customer Quote ##
   > Provide a quote from a hypothetical customer that describes how they experienced the benefit.
+  
+ "I finally proved to my friends that 1999 was the best year in music history!"
 
 ## Closing and Call to Action ##
   > Wrap it up and give pointers where the reader should go next.
+
+ If you're ever in the mood to relive the aural glory days of your youth, this is the web app for you.
